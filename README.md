@@ -53,6 +53,19 @@ npm run db:seed
 npm run dev
 ```
 
+## Supabase SQL paleidimas
+
+Jei naudojate Supabase vietoje lokalaus Docker Postgres:
+
+1. Atidarykite Supabase projekto SQL Editor.
+2. Paleiskite skriptus tokia tvarka:
+   - `supabase/sql/001_schema.sql`
+   - `supabase/sql/002_seed_sources_and_exam.sql`
+   - `supabase/sql/003_seed_questions.sql`
+3. Programos `.env` faile nustatykite `DATABASE_URL` i Supabase Postgres connection string (`sslmode=require`).
+
+Pastaba: seeding SQL skriptai yra idempotentiniai (gali buti paleidziami pakartotinai).
+
 ## Testai
 
 ```bash
