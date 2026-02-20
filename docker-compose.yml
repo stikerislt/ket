@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: ket-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ket
+      POSTGRES_PASSWORD: ket
+      POSTGRES_DB: ket
+    volumes:
+      - ket_pg_data:/var/lib/postgresql/data
+
+volumes:
+  ket_pg_data:

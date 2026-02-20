@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Pagrindinio ir salutinio kelio sankryza">
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <rect x="0" y="220" width="960" height="100" fill="#334155"/>
+  <rect x="380" y="0" width="200" height="540" fill="#475569"/>
+  <line x1="0" y1="270" x2="960" y2="270" stroke="#f8fafc" stroke-width="6" stroke-dasharray="20 14"/>
+  <line x1="480" y1="0" x2="480" y2="540" stroke="#f8fafc" stroke-width="6" stroke-dasharray="20 14"/>
+  <circle cx="230" cy="270" r="26" fill="#0ea5e9"/>
+  <circle cx="480" cy="390" r="26" fill="#16a34a"/>
+  <circle cx="720" cy="270" r="26" fill="#f97316"/>
+  <text x="24" y="40" fill="#0f172a" font-size="28" font-family="Arial" font-weight="700">SC-004: Pirmumo seka sankryzoje</text>
+  <text x="24" y="78" fill="#334155" font-size="20" font-family="Arial">Melyna -> zalia -> oranzine transporto priemone</text>
+</svg>

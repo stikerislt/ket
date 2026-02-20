@@ -1,0 +1,640 @@
+{
+  "questions": [
+    {
+      "externalId": "SC-001",
+      "slug": "sc-001-mobile-usage",
+      "type": "multi",
+      "topic": "Mobile usage",
+      "difficulty": "EASY",
+      "situationLt": "Vairuotojas vaziuodamas miesto gatve gauna skambuti.",
+      "promptLt": "Kada leidziama naudotis mobiliuoju rysiu vairuojant?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "20", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Kai telefonas laikomas rankoje ir eismas neintensyvus",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes naudojimasis telefonu rankomis judant transporto priemonei draudziamas (Nuoroda: KET 20)."
+        },
+        {
+          "key": "B",
+          "textLt": "Kai naudojama laisvu ranku iranga, o telefonas pritvirtintas laikiklyje",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes KET leidzia valdyti rysio priemone su laisvu ranku iranga, kai telefonas laikiklyje (Nuoroda: KET 20)."
+        },
+        {
+          "key": "C",
+          "textLt": "Kai transporto priemone stovi ir nedalyvauja eisme",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes draudimas taikomas, kai transporto priemone dalyvauja viesajame eisme (Nuoroda: KET 20)."
+        },
+        {
+          "key": "D",
+          "textLt": "Kai vaziuojama ne didesniu kaip 30 km/h greiciu",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes KET nenumato greicio isimties naudojimui telefonu rankoje (Nuoroda: KET 20)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-002",
+      "slug": "sc-002-officer-stop",
+      "type": "multi",
+      "topic": "Officer stop",
+      "difficulty": "EASY",
+      "situationLt": "Policijos pareigunas sustabdo jus dokumentu patikrai.",
+      "promptLt": "Kokie veiksmai yra teisingi sustabdzius pareigunui?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "16", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "91.3", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Sustabdyti transporto priemone pagal pareiguno nurodyma",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes tikrinancio pareiguno stabdomas vairuotojas privalo sustoti (Nuoroda: KET 16)."
+        },
+        {
+          "key": "B",
+          "textLt": "Ijungti avarine sviesos signalizacija",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes sustabdzius tikrinanciam pareigunui avarine signalizacija turi buti ijungta (Nuoroda: KET 91.3)."
+        },
+        {
+          "key": "C",
+          "textLt": "Dokumentus paduoti neislipus is transporto priemones",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes dokumentai pareigunui paduodami neislipant, o islipti galima tik leidus (Nuoroda: KET 16)."
+        },
+        {
+          "key": "D",
+          "textLt": "Nedelsiant islipti ir prieiti prie pareiguno",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes vairuotojui islipti leidziama tik tikrinanciam pareigunui leidus (Nuoroda: KET 16)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-003",
+      "slug": "sc-003-eismo-ivykis-deklaracija",
+      "type": "single",
+      "topic": "Eismo ivykis",
+      "difficulty": "MEDIUM",
+      "situationLt": "Avarijoje niekas nesuzeistas, abi puses sutaria del aplinkybiu.",
+      "promptLt": "Ka privalo padaryti eismo ivykio dalyviai?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "219.1", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "219.3", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "220", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Uzpildyti eismo ivykio deklaracija, pasirasyti ir tik tada pasitraukti",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes be nukentejusiu ir sutariant del aplinkybiu pildoma deklaracija su parasais; nesutarus kvieciama policija (Nuoroda: KET 220)."
+        },
+        {
+          "key": "B",
+          "textLt": "Is karto issiskirstyti, nes zala tik turtine",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes privaloma uzfiksuoti ivykio aplinkybes deklaracijoje ir atlikti pareigas po ivykio (Nuoroda: KET 219.1, 220)."
+        },
+        {
+          "key": "C",
+          "textLt": "Visais atvejais butina kviesti policija",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes jei nera suzeistu ir dalyviai sutaria, policijos kviesti nereikia (Nuoroda: KET 220)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-004",
+      "slug": "sc-004-priority-order",
+      "type": "ordering",
+      "topic": "Right-of-way signs",
+      "difficulty": "HARD",
+      "situationLt": "Sankryzoje pagrindinis kelias pazymetas zenklu 201. Viena transporto priemone vaziuoja salutiniu keliu su zenklu 203.",
+      "promptLt": "Sudeliokite transporto priemones judejimo seka nuo pirmos iki paskutines.",
+      "mediaUrl": "/scenarios/right-of-way-signs.svg",
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "154", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "157", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "KELIO_ZENKLAS_201", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "KELIO_ZENKLAS_203", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Melynas automobilis pagrindiniu keliu vaziuoja tiesiai",
+          "isCorrect": true,
+          "orderRank": 1,
+          "explanationLt": "Teisinga, nes tiesiai pagrindiniu keliu vaziuojanti transporto priemone vaziuoja pirma (Nuoroda: KET 154, zenklas 201)."
+        },
+        {
+          "key": "B",
+          "textLt": "Zalias automobilis pagrindiniu keliu suka i kaire",
+          "isCorrect": true,
+          "orderRank": 2,
+          "explanationLt": "Teisinga, nes pagrindiniame kelyje sukantis i kaire vairuotojas praleidzia priesinga krypti, taciau vis tiek turi pirmenybe pries salutini kelia (Nuoroda: KET 157, 154)."
+        },
+        {
+          "key": "C",
+          "textLt": "Oranzinis automobilis atvaziuoja salutiniu keliu",
+          "isCorrect": true,
+          "orderRank": 3,
+          "explanationLt": "Teisinga, nes salutiniu keliu vaziuojantis vairuotojas duoda kelia pagrindinio kelio transportui (Nuoroda: KET 154, zenklas 203)."
+        },
+        {
+          "key": "D",
+          "textLt": "Papildomas dalyvis be pirmumo santykio siame scenarijuje",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes sioje uzduotyje pirmumo seka nustatoma tik trim pavaizduotoms transporto priemonems (Nuoroda: KET 154, 157)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-005",
+      "slug": "sc-005-equal-intersection",
+      "type": "image",
+      "topic": "Equal intersection",
+      "difficulty": "MEDIUM",
+      "situationLt": "Prie sankryzos nera pirmuma nustatanciu zenklu.",
+      "promptLt": "Kokia taisykle taikoma lygiareiksmeje sankryzoje?",
+      "mediaUrl": "/scenarios/equal-intersection.svg",
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "155", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Duoti kelia is desines artejanciai transporto priemonei",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes lygiareiksmeje sankryzoje taikoma desines rankos taisykle (Nuoroda: KET 155)."
+        },
+        {
+          "key": "B",
+          "textLt": "Vaziuoti pirmam, nes zenklu nera",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes zenklu nebuvimas nereiskia pirmenybes; taikoma desines rankos taisykle (Nuoroda: KET 155)."
+        },
+        {
+          "key": "C",
+          "textLt": "Vaziuoti pirmam parodzius posukio signala",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes signalas nesuteikia pirmenybes (Nuoroda: KET 155 ir bendras principas)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-006",
+      "slug": "sc-006-left-turn-priority",
+      "type": "multi",
+      "topic": "Left turn priority",
+      "difficulty": "MEDIUM",
+      "situationLt": "Jus sankryzoje sukate i kaire.",
+      "promptLt": "Ka privalote praleisti sukdami i kaire?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "157", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Priesinga kryptimi tiesiai vaziuojancias transporto priemones",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes sukant i kaire jos turi pirmenybe (Nuoroda: KET 157)."
+        },
+        {
+          "key": "B",
+          "textLt": "Priesinga kryptimi i desine sukancias transporto priemones",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes jos taip pat priskiriamos priesingai krypciai su pirmenybe jusu atzvilgiu (Nuoroda: KET 157)."
+        },
+        {
+          "key": "C",
+          "textLt": "Niekieno, jei posukio signalas ijungtas is anksto",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes posukio signalas nesuteikia važiavimo pirmumo (Nuoroda: KET 157)."
+        },
+        {
+          "key": "D",
+          "textLt": "Lenkiancias transporto priemones, kai sankryzoje lenkti leidziama",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes taisykle tiesiogiai numato praleisti ir leistina lenkima atliekancias transporto priemones (Nuoroda: KET 157)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-007",
+      "slug": "sc-007-turning-across-users",
+      "type": "multi",
+      "topic": "Turning across users",
+      "difficulty": "HARD",
+      "situationLt": "Sukate sankryzoje i desine, o jusu ivaziavimo juostas kerta pestieji ir dviratininkas.",
+      "promptLt": "Koks teisingas veiksmas?",
+      "mediaUrl": "/scenarios/turning-across-users.svg",
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "158", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "27", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Praleisti juostas kertancius dviratininkus ir kitus eismo dalyvius",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes sukdamas vairuotojas privalo duoti kelia kertantiems eismo dalyviams (Nuoroda: KET 158)."
+        },
+        {
+          "key": "B",
+          "textLt": "Praleisti pestiji, kurio judejimo krypti kertate",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes pestysis praleidziamas tiek sankryzoje, tiek ivaziuojant/isvaziuojant is teritoriju (Nuoroda: KET 27, 158)."
+        },
+        {
+          "key": "C",
+          "textLt": "Vaziuoti pirmam, jei ijungtas posukio signalas",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes signalas nesuteikia pirmumo teises, o sukant privaloma duoti kelia kertantiems dalyviams (Nuoroda: KET 158)."
+        },
+        {
+          "key": "D",
+          "textLt": "Praleisti tik viena artimiausia juosta kertanti pesciaji",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes sukant duodamas kelias eismo dalyviams, kertantiems i ta kelia patenkancias juostas pagal taisykles salygas (Nuoroda: KET 158)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-008",
+      "slug": "sc-008-intersection-blocking",
+      "type": "single",
+      "topic": "Intersection blocking",
+      "difficulty": "MEDIUM",
+      "situationLt": "Priekyje sankryzoje susidariusi spustis.",
+      "promptLt": "Ka turite daryti pries ivaziuodami i sankirta?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "160", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Neivaziuoti i sankirta, kol uz jos neatsilaisvins vieta",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes draudziama ivaziuoti i sankirta jei tektu joje sustoti ir trukdyti eismui (Nuoroda: KET 160)."
+        },
+        {
+          "key": "B",
+          "textLt": "Ivaziuoti ir sustoti sankryzos viduryje, kad uzimti eile",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes tai tiesiogiai draudziama (Nuoroda: KET 160)."
+        },
+        {
+          "key": "C",
+          "textLt": "Vaziuoti tik jei spaudziama is galo",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes priekinio eismo kliutis nekeicia draudimo blokuoti sankryza (Nuoroda: KET 160)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-009",
+      "slug": "sc-009-traffic-light-arrow",
+      "type": "single",
+      "topic": "Traffic lights",
+      "difficulty": "MEDIUM",
+      "situationLt": "Degant raudonam signalui ijungta papildomos sekcijos zalia rodykle i desine.",
+      "promptLt": "Kokia taisykle taikoma vaziuojant pagal papildoma rodykle?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "163", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Sukti rodykles kryptimi tik davus kelia is kitu krypciu leidziamu signalu judantiems eismo dalyviams",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes papildomos sekcijos rodykle su raudonu/geltonu signalu nesuteikia absoliutaus pirmumo (Nuoroda: KET 163)."
+        },
+        {
+          "key": "B",
+          "textLt": "Vaziuoti be sustojimo, nes rodykle turi auksciausia pirmenybe",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes vairuotojas privalo duoti kelia kitiems leidziamu signalu judantiems dalyviams (Nuoroda: KET 163)."
+        },
+        {
+          "key": "C",
+          "textLt": "Laukti zalio pagrindinio signalo, nes rodykle negalioja",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes papildomos sekcijos rodykle leidzia vaziuoti rodykles kryptimi su papildoma pareiga duoti kelia (Nuoroda: KET 163)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-010",
+      "slug": "sc-010-lane-closure-merge",
+      "type": "single",
+      "topic": "Lane closure merge",
+      "difficulty": "MEDIUM",
+      "situationLt": "Viena tos pacios krypties juosta uzblokuota ir susidare eile.",
+      "promptLt": "Ka privalo padaryti gretima juosta vaziuojantis vairuotojas?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "105", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "104", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Ileisti viena pirma eileje esancia transporto priemone persirikiuoti",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes taisykle ipareigoja gretima juosta vaziuojanti vairuotoja ileisti viena pirma eileje esancia transporto priemone (Nuoroda: KET 105)."
+        },
+        {
+          "key": "B",
+          "textLt": "Neileisti nieko, nes pirmenybe visada gretimai juostai",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes KET numato privaloma ileidimo pareiga sioje situacijoje (Nuoroda: KET 105)."
+        },
+        {
+          "key": "C",
+          "textLt": "Leisti persirikiuoti tiek transporto priemoniu, kiek nori eile",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes KET 105 kalba apie viena pirma eileje esancia transporto priemone kiekvienam vaziuojanciam vairuotojui."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-011",
+      "slug": "sc-011-acceleration-lane",
+      "type": "single",
+      "topic": "Acceleration lane",
+      "difficulty": "MEDIUM",
+      "situationLt": "Jus ivaziuojate i magistralini kelia is greitejimo juostos.",
+      "promptLt": "Koks teisingas veiksmas isiliejant i srauta?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "112", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Vaziuoti greitejimo juosta ir persirikiuoti duodant kelia pagrindiniu srautu vaziuojancioms transporto priemonems",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes is greitejimo juostos isiliejama i srauta duodant kelia pagrindiniu juostu transportui (Nuoroda: KET 112)."
+        },
+        {
+          "key": "B",
+          "textLt": "Stabdyti greitejimo juostoje iki pilno laisvo kelio",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes taisykle numato vaziuoti greitejimo juosta ir saugiai isilieti i srauta, o ne be reikalo stabdyti (Nuoroda: KET 112)."
+        },
+        {
+          "key": "C",
+          "textLt": "Persirikiuoti is karto i pagrindine juosta be eismo vertinimo",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes persirikiuojantis vairuotojas privalo duoti kelia (Nuoroda: KET 112)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-012",
+      "slug": "sc-012-overtaking-right",
+      "type": "single",
+      "topic": "Overtaking",
+      "difficulty": "MEDIUM",
+      "situationLt": "Pries jus vaziuojanti transporto priemone juda leciau, desineje yra kelkrastis ir letejimo juosta.",
+      "promptLt": "Ar galima apvaziuoti is desines vaziuojant kelkrasciu ar letejimo/greitejimo juosta?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "125", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "119", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Draudziama, isskyrus taisyklese numatytas siauras isimtis sukančioms i kaire transporto priemonems",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes taisykle draudzia tokia apvaziavimo taktika vaziuojant kelkrasciu, letejimo ar greitejimo juosta (Nuoroda: KET 125)."
+        },
+        {
+          "key": "B",
+          "textLt": "Leidziama, jei priekyje vaziuojanti transporto priemone juda labai letai",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes vien letas judejimas tokios islygos nesukuria (Nuoroda: KET 125)."
+        },
+        {
+          "key": "C",
+          "textLt": "Leidziama, jei ijungtas posukio signalas",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes signalas nepanaikina draudimo apvaziuoti is desines minetomis juostomis (Nuoroda: KET 125)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-013",
+      "slug": "sc-013-speed-limits",
+      "type": "multi",
+      "topic": "Speed limits",
+      "difficulty": "HARD",
+      "situationLt": "Vertinami keli skirtingi greicio ribu teiginiai.",
+      "promptLt": "Pazymekite teisingus teiginius apie greicio ribas.",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "129", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "130", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "131.1", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "131.2", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "132", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Gyvenvieteje maksimalus greitis visoms transporto priemonems yra 50 km/h",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes tai tiesiogiai nustatyta gyvenvietems (Nuoroda: KET 129)."
+        },
+        {
+          "key": "B",
+          "textLt": "Stovejimo aiksteleje maksimalus greitis yra 20 km/h",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes stovėjimo aikstelese taikomas 20 km/h limitas (Nuoroda: KET 130)."
+        },
+        {
+          "key": "C",
+          "textLt": "Lengvasis automobilis automagistraleje balandzio-spalio menesiais gali vaziuoti iki 130 km/h",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes sezoninis limitas lengviesiems automobiliams siuo laikotarpiu yra 130 km/h (Nuoroda: KET 131.1)."
+        },
+        {
+          "key": "D",
+          "textLt": "Pradedanciajam vairuotojui automagistraleje leidziama iki 110 km/h",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes pradedanciajam automagistraleje leidziama iki 100 km/h (Nuoroda: KET 131.2)."
+        },
+        {
+          "key": "E",
+          "textLt": "Kelio zenklas gali leisti virsyti transporto priemonei 131 punkte nustatyta maksimalu limita",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes net ir esant zenklui negalima virsyti transporto priemonei taikomo maksimalaus limito (Nuoroda: KET 132)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-014",
+      "slug": "sc-014-pedestrian-crossing-stop",
+      "type": "single",
+      "topic": "Pedestrian crossing",
+      "difficulty": "MEDIUM",
+      "situationLt": "Pries nereguliuojama pereja kita transporto priemone sustojo.",
+      "promptLt": "Ka privalote daryti vaziuodami ta pacia kryptimi?",
+      "mediaUrl": null,
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "30", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "31", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "32", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Sustoti arba suletinti ir pradeti vaziuoti tik isitikinus, kad perejoje nera pesciojo, kuriam trukdytumete",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes pries pereja sustojus ar suletejus kitai transporto priemonei turite uztikrinti, kad nepavojingai praleidziami pestieji (Nuoroda: KET 30, 31)."
+        },
+        {
+          "key": "B",
+          "textLt": "Apvaziuoti sustojusia transporto priemone ir testi judejima per pereja",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes tai gali sukelti pavoju perejoje esantiems pestiesiems ir pazeidzia elgesio prie perejos reikalavimus (Nuoroda: KET 31, 32)."
+        },
+        {
+          "key": "C",
+          "textLt": "Nereikia imtis veiksmu, jei nematote pesciuju",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes vairuotojas privalo aktyviai isitikinti saugumu ir prireikus sustoti (Nuoroda: KET 30, 31)."
+        }
+      ]
+    },
+    {
+      "externalId": "SC-015",
+      "slug": "sc-015-railway-crossing",
+      "type": "image",
+      "topic": "Railway crossing",
+      "difficulty": "HARD",
+      "situationLt": "Artejate prie gelezinkelio pervazos, uz jos matoma kliutis.",
+      "promptLt": "Koks teisingas veiksmas sioje situacijoje?",
+      "mediaUrl": "/scenarios/railway-crossing.svg",
+      "status": "PUBLISHED",
+      "evidenceStatus": "SUFFICIENT",
+      "references": [
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "170", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "173.4", "isPrimary": true },
+        { "sourceCode": "KET-2024-12-01", "sectionCode": "169", "isPrimary": true }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "textLt": "Sustoti pries stop linija ar zenkla ir neivaziuoti i pervaza, jei uz jos kliutis",
+          "isCorrect": true,
+          "orderRank": null,
+          "explanationLt": "Teisinga, nes draudziama ivaziuoti i pervaza, jei uz jos kliutis, o duodant kelia privaloma sustoti nustatytose vietose (Nuoroda: KET 170, 173.4)."
+        },
+        {
+          "key": "B",
+          "textLt": "Greitai pervaziuoti pervaza, kad neatideti eismo",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes pirmiausia turi buti uztikrintas saugumas ir nevaziuojama ant pervazos esant kliuciai (Nuoroda: KET 173.4)."
+        },
+        {
+          "key": "C",
+          "textLt": "Ivaziuoti i pervaza ir sustoti ant begiu, jei eile nejuda",
+          "isCorrect": false,
+          "orderRank": null,
+          "explanationLt": "Neteisinga, nes sustoti ant pervazos draudziama, kai uz jos kliutis (Nuoroda: KET 173.4)."
+        }
+      ]
+    }
+  ]
+}

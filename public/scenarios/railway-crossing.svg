@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Gelezinkelio pervaza su kliutimi uz jos">
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <rect x="120" y="210" width="720" height="120" fill="#374151"/>
+  <line x1="120" y1="270" x2="840" y2="270" stroke="#f8fafc" stroke-width="6" stroke-dasharray="20 14"/>
+  <line x1="430" y1="130" x2="430" y2="410" stroke="#b91c1c" stroke-width="10"/>
+  <line x1="530" y1="130" x2="530" y2="410" stroke="#b91c1c" stroke-width="10"/>
+  <rect x="600" y="245" width="120" height="50" fill="#ef4444" rx="10"/>
+  <rect x="280" y="130" width="70" height="70" fill="#fbbf24"/>
+  <text x="292" y="175" fill="#111827" font-size="38" font-family="Arial" font-weight="700">STOP</text>
+  <text x="24" y="40" fill="#0f172a" font-size="28" font-family="Arial" font-weight="700">SC-015: Gelezinkelio pervaza</text>
+  <text x="24" y="78" fill="#334155" font-size="20" font-family="Arial">Draudziama ivaziuoti, jei uz pervazos kliutis</text>
+</svg>

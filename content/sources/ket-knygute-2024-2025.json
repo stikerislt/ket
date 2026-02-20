@@ -1,0 +1,199 @@
+{
+  "sourceDocuments": [
+    {
+      "code": "KET-2024-12-01",
+      "title": "Keliu eismo taisykles (atnaujinta 2024-12-01)",
+      "filePath": "Data/KET-knygute-2024-2025-(1).pdf",
+      "revisionDate": "2024-12-01",
+      "checksum": null,
+      "clauses": [
+        {
+          "sectionCode": "16",
+          "excerptLt": "Tikrinancio pareiguno sustabdytas vairuotojas privalo sustoti ir dokumentus paduoti neislipes is transporto priemones.",
+          "pageRef": "11-12",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "20",
+          "excerptLt": "Judant transporto priemonei draudziama naudotis telefonu rankoje; leidziama laisvu ranku iranga, kai telefonas laikiklyje, arba naudojant transporto priemones iranga.",
+          "pageRef": "12",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "27",
+          "excerptLt": "Sukdamas sankryzoje arba ivaziuodamas/isvaziuodamas is teritorijos vairuotojas privalo praleisti pestiji, kurio judejimo krypti kerta.",
+          "pageRef": "14",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "30",
+          "excerptLt": "Artejant prie nereguliuojamos pesciuju perejos vairuotojas privalo suletinti arba sustoti ir praleisti pesciuosius pagal ju uzimama juosta.",
+          "pageRef": "14",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "31",
+          "excerptLt": "Jei pries pereja sustojo ar suletejo transporto priemone, ta pacia kryptimi vaziuojantis vairuotojas privalo sustoti ar suletinti ir isitikinti, kad perejoje saugu.",
+          "pageRef": "14-15",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "32",
+          "excerptLt": "Draudziama ivaziuoti i pesciuju pereja, jei pesciai, kuriuos privaloma praleisti, neisejo is uzimamos juostos, arba uz perejos kliutis vercia sustoti.",
+          "pageRef": "15",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "91.3",
+          "excerptLt": "Avarine sviesos signalizacija privalo buti ijungta, kai transporto priemone sustabde tikrinantis pareigunas.",
+          "pageRef": "32",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "104",
+          "excerptLt": "Persirikiuodamas vairuotojas privalo duoti kelia gretima juosta ta pacia kryptimi vaziuojancioms transporto priemonems.",
+          "pageRef": "35",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "105",
+          "excerptLt": "Jei viena juosta uzblokuota ir susidare eile, gretima juosta vaziuojantis vairuotojas privalo ileisti viena pirma eileje esancia transporto priemone.",
+          "pageRef": "35",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "112",
+          "excerptLt": "I keli is greitejimo juostos isiliejantis vairuotojas privalo duoti kelia pagrindiniu srautu vaziuojancioms transporto priemonems.",
+          "pageRef": "36",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "119",
+          "excerptLt": "Vairuotojas privalo vaziuoti kuo arciau desiniojo vaziuojamosios dalies krasto.",
+          "pageRef": "38",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "125",
+          "excerptLt": "Draudziama ta pacia kryptimi vaziuojancias transporto priemones apvaziuoti is desines vaziuojant kelkrasciu, letejimo ar greitejimo juosta (su isimtimis sukantiems i kaire).",
+          "pageRef": "39",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "129",
+          "excerptLt": "Gyvenvietese visoms transporto priemonems leidziama vaziuoti ne didesniu kaip 50 km/h greiciu.",
+          "pageRef": "41",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "130",
+          "excerptLt": "Stovejimo aikstelese visoms transporto priemonems leidziama vaziuoti ne didesniu kaip 20 km/h greiciu.",
+          "pageRef": "41",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "131.1",
+          "excerptLt": "Lengviesiems automobiliams, motociklams ir triraciams ne gyvenvietese taikomi sezoniniai maksimalus greiciai: automagistraleje 130/110, greitkelyje 120/110, kitur 90 arba 70.",
+          "pageRef": "41",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "131.2",
+          "excerptLt": "Pradedantiesiems vairuotojams automagistraleje leidziama iki 100 km/h, greitkelyje iki 90 km/h, asfalto ar betono keliuose iki 80 km/h, kituose keliuose iki 70 km/h.",
+          "pageRef": "41",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "132",
+          "excerptLt": "Kelio zenklu nustatytas greitis negali virsyti 131 punkte konkreciai transporto priemonei nustatyto maksimalaus leistino greicio.",
+          "pageRef": "42",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "154",
+          "excerptLt": "Nelygiareiksmiu keliu sankryzoje salutiniu keliu vaziuojantis vairuotojas privalo duoti kelia pagrindiniu keliu artejancioms transporto priemonems.",
+          "pageRef": "49",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "155",
+          "excerptLt": "Lygiareiksmiu keliu sankryzoje duodamas kelias is desines artejancioms transporto priemonems, jei trajektorijos kertasi.",
+          "pageRef": "49",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "157",
+          "excerptLt": "Sukdamas i kaire vairuotojas privalo duoti kelia priesinga kryptimi tiesiai ar i desine vaziuojancioms transporto priemonems ir leistinai lenkiancioms transporto priemonems.",
+          "pageRef": "49",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "158",
+          "excerptLt": "Sukdamas sankryzoje i kaire arba i desine vairuotojas privalo duoti kelia eismo dalyviams, kertantiems juostas i kurias jis suka, iskaitant dviracius.",
+          "pageRef": "49",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "160",
+          "excerptLt": "Draudziama ivaziuoti i sankirta, jei joje ar uz jos kliutis priverstu sustoti sankryzoje ir trukdyti kitu transporto priemoniu eismui.",
+          "pageRef": "49",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "163",
+          "excerptLt": "Vaziuodamas pagal papildomos sviesoforo sekcijos rodykle su raudonu arba geltonu signalu vairuotojas privalo duoti kelia is kitu krypciu leidziamu signalu judantiems eismo dalyviams.",
+          "pageRef": "50",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "169",
+          "excerptLt": "Gelezinkelio pervazoje eismo dalyvis privalo duoti kelia artejanciai beginei transporto priemonei.",
+          "pageRef": "51",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "170",
+          "excerptLt": "Kai vaziuoti per gelezinkelio pervaza draudziama arba duodamas kelias traukiniui, vairuotojas privalo sustoti pries stop linija/zenkla/uztvara ar ne arciau kaip 10 m nuo pirmojo begio.",
+          "pageRef": "51",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "173.4",
+          "excerptLt": "Draudziama ivaziuoti i gelezinkelio pervaza, jeigu uz jos yra kliutis, kuri verstu sustoti ant pervazos.",
+          "pageRef": "52",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "219.1",
+          "excerptLt": "Ivykus eismo ivykiui privaloma nedelsiant sustoti ir pazymeti ivykio vieta pagal taisykles.",
+          "pageRef": "68",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "219.3",
+          "excerptLt": "Eismo ivykyje dalyvaujantis asmuo privalo pateikti asmens tapatybes ar vairuotojo pazymejima ir draudimo duomenis, jei to reikalauja kiti susije dalyviai.",
+          "pageRef": "68",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "220",
+          "excerptLt": "Jei eismo ivykyje nera zuvusiu ar suzeistu ir dalyviai sutaria del aplinkybiu, pildoma deklaracija ir policija nekvieciama; nesutarus kvieciama policija.",
+          "pageRef": "68",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "KELIO_ZENKLAS_201",
+          "excerptLt": "Kelio zenklas 201 nurodo pagrindini kelia ir suteikia pirmenybe vaziuoti per nereguliuojamas sankryzas.",
+          "pageRef": "82",
+          "evidenceLevel": "PRIMARY"
+        },
+        {
+          "sectionCode": "KELIO_ZENKLAS_203",
+          "excerptLt": "Kelio zenklas 203 Duoti kelia ipareigoja duoti kelia kertamuoju ar prisijungianciuoju keliu vaziuojancioms transporto priemonems.",
+          "pageRef": "82",
+          "evidenceLevel": "PRIMARY"
+        }
+      ]
+    }
+  ]
+}

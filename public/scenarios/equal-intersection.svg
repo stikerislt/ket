@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Lygiareiksme sankryza">
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <rect x="0" y="220" width="960" height="100" fill="#1f2937"/>
+  <rect x="430" y="0" width="100" height="540" fill="#1f2937"/>
+  <line x1="0" y1="270" x2="960" y2="270" stroke="#ffffff" stroke-width="6" stroke-dasharray="22 12"/>
+  <line x1="480" y1="0" x2="480" y2="540" stroke="#ffffff" stroke-width="6" stroke-dasharray="22 12"/>
+  <circle cx="180" cy="270" r="24" fill="#ef4444"/>
+  <circle cx="480" cy="120" r="24" fill="#22c55e"/>
+  <circle cx="780" cy="270" r="24" fill="#3b82f6"/>
+  <text x="24" y="40" fill="#0f172a" font-size="28" font-family="Arial" font-weight="700">SC-005: Lygiareiksme sankryza</text>
+  <text x="24" y="78" fill="#334155" font-size="20" font-family="Arial">Taikoma desines rankos taisykle</text>
+</svg>

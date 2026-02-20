@@ -1,0 +1,214 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum QuestionType {
+  single
+  multi
+  image
+  ordering
+}
+
+enum QuestionStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum EvidenceStatus {
+  SUFFICIENT
+  INSUFFICIENT_RULE_BASIS
+}
+
+enum EvidenceLevel {
+  PRIMARY
+  SUPPLEMENTAL
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum AttemptMode {
+  PRACTICE
+  EXAM
+  TOPIC
+}
+
+enum AttemptResult {
+  PASS
+  FAIL
+  UNSCORED
+}
+
+model SourceDocument {
+  id           String      @id @default(cuid())
+  code         String      @unique
+  title        String
+  filePath     String
+  revisionDate DateTime?
+  checksum     String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  clauses      RuleClause[]
+}
+
+model RuleClause {
+  id               String        @id @default(cuid())
+  sourceDocumentId String
+  sectionCode      String
+  excerptLt        String
+  pageRef          String?
+  evidenceLevel    EvidenceLevel @default(PRIMARY)
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  sourceDocument SourceDocument   @relation(fields: [sourceDocumentId], references: [id], onDelete: Cascade)
+  references     QuestionReference[]
+
+  @@unique([sourceDocumentId, sectionCode])
+}
+
+model Question {
+  id             String         @id @default(cuid())
+  externalId     String?        @unique
+  slug           String         @unique
+  type           QuestionType
+  topic          String
+  difficulty     Difficulty
+  situationLt    String
+  promptLt       String
+  mediaUrl       String?
+  status         QuestionStatus @default(DRAFT)
+  evidenceStatus EvidenceStatus @default(INSUFFICIENT_RULE_BASIS)
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  options      QuestionOption[]
+  references   QuestionReference[]
+  attemptItems AttemptAnswer[]
+
+  @@index([topic])
+  @@index([status, evidenceStatus])
+}
+
+model QuestionOption {
+  id            String   @id @default(cuid())
+  questionId    String
+  key           String
+  textLt        String
+  isCorrect     Boolean
+  orderRank     Int?
+  explanationLt String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, key])
+}
+
+model QuestionReference {
+  id           String   @id @default(cuid())
+  questionId   String
+  ruleClauseId String
+  isPrimary    Boolean  @default(true)
+  createdAt    DateTime @default(now())
+
+  question   Question   @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  ruleClause RuleClause @relation(fields: [ruleClauseId], references: [id], onDelete: Restrict)
+
+  @@unique([questionId, ruleClauseId])
+}
+
+model ExamProfile {
+  id             String         @id @default(cuid())
+  code           String         @unique
+  label          String
+  timeLimitSec   Int?
+  questionCount  Int
+  passThresholdPct Int?
+  evidenceStatus EvidenceStatus @default(INSUFFICIENT_RULE_BASIS)
+  note           String?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  attempts Attempt[]
+}
+
+model LearnerProfile {
+  id                String   @id @default(cuid())
+  anonymousTokenHash String   @unique
+  userId            String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  attempts      Attempt[]
+  topicProgress TopicProgress[]
+
+  @@index([userId])
+}
+
+model Attempt {
+  id           String        @id @default(cuid())
+  learnerId    String
+  mode         AttemptMode
+  topicFilter  String?
+  examProfileId String?
+  startedAt    DateTime
+  completedAt  DateTime?
+  correctCount Int           @default(0)
+  wrongCount   Int           @default(0)
+  elapsedSec   Int?
+  result       AttemptResult @default(UNSCORED)
+  resultReason String?
+  snapshotJson Json?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  learner     LearnerProfile @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  examProfile ExamProfile?   @relation(fields: [examProfileId], references: [id], onDelete: SetNull)
+  answers     AttemptAnswer[]
+
+  @@index([learnerId, mode])
+}
+
+model AttemptAnswer {
+  id               String   @id @default(cuid())
+  attemptId        String
+  questionId       String
+  selectedOptionIds Json
+  isCorrect        Boolean
+  timeSpentSec     Int
+  feedbackViewed   Boolean  @default(false)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  attempt  Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Restrict)
+
+  @@unique([attemptId, questionId])
+}
+
+model TopicProgress {
+  id             String   @id @default(cuid())
+  learnerId      String
+  topic          String
+  answeredCount  Int      @default(0)
+  correctRate    Float    @default(0)
+  lastPracticedAt DateTime?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  learner LearnerProfile @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@unique([learnerId, topic])
+  @@index([topic])
+}
